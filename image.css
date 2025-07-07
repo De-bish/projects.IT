@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 50px;
+}
+.hero h5{
+    color: rgb(124, 169, 57);
+}
+body{
+    padding: 20px;
+}
+
+.body{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+@media(max-width:430px){
+    .body{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .ione, .itwo, .ithree{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ione img, .itwo img, .ithree img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .ione, .itwo, .ithree{
+        margin-bottom: 20px;
+    }
+    .hero h5{
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero h5{
+        margin-bottom: 20px;
+    }
+    .hero h1{
+        text-align: center;
+    }
+    .hero h1{
+        font-size: 2rem;
+    }
+    .hero h1, .hero h5{
+        margin: 0;
+    }
+      
+}
+
+@media(max-width:890px){
+    .body{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .ione, .itwo, .ithree{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ione img, .itwo img, .ithree img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .ione, .itwo, .ithree{
+        margin-bottom: 20px;
+    }
+    .hero h5{
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero h5{
+        margin-bottom: 20px;
+    }
+    .hero h1{
+        text-align: center;
+    }
+    .hero h1{
+        font-size: 2rem;
+    }
+    .hero h1, .hero h5{
+        margin: 0;
+    }
+      
+}
